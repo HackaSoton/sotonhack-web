@@ -33,16 +33,14 @@ a {
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
-    color: #F05F40;
-}
-
-a:hover,
-a:focus {
-    color: #eb3812;
+    color: #0D536C;
 }
 
 h1,
-h2,
+h2 {
+    font-family: 'Orbitron', 'Helvetica Neue', Arial, sans-serif;
+}
+
 h3,
 h4,
 h5,
@@ -63,6 +61,10 @@ p {
 .bg-dark {
     background-color: #222222;
     color: white;
+}
+
+.white {
+  border-color: #FFFFFF;
 }
 
 .text-faded {
@@ -285,7 +287,7 @@ header .header-content .header-content-inner p {
     color: white;
     opacity: 0;
     display: block;
-    background: rgba(240, 95, 64, 0.9);
+    background: rgba(13, 83, 108, 0.9);
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -500,5 +502,25 @@ body {
 }
 
 .prize-ring {
-    
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid;
+    text-align: center;
+    line-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Orbitron';
+}
+
+.prize-1st {
+  color: #FACC2E;
+}
+
+.prize-2nd {
+  color: #848484;
+}
+
+.prize-3rd {
+  color: #B45F04;
 }
