@@ -183,6 +183,15 @@ aside {
     .navbar-default.affix .nav > li > a:focus:hover {
         color: #0D536C;
     }
+    
+}
+
+.navbar-toggle {
+    margin-right: 90px;
+}
+
+.navbar-right {
+    margin-right: 120px;
 }
 
 header {
