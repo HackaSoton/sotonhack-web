@@ -541,3 +541,24 @@ body {
 .shaddow-small {
   text-shadow: 1px 1px #000000;
 }
+
+#footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fa-heart {
+    color: #FF0000;
+}
+
+.social-icons {
+    color: #FFFFFF;
+    padding: 8px 15px;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.social-icons:hover {
+    color: #999999;
+}
