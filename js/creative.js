@@ -68,6 +68,7 @@
 
 // Load header image
 $(document).ready(function() {
-    $("header").css("background-image", "url('img/header.jpg')");
+    $("header").css("background", "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/header.jpg')");
+    $("header").css("background-size", "cover");
 });
 
