@@ -535,11 +535,13 @@ body {
 }
 
 .shaddow {
-  text-shadow: 2px 2px #000000;
+  color: #000000;
+  text-shadow: 2px 2px #FFFFFF;
 }
 
 .shaddow-small {
-  text-shadow: 1px 1px #000000;
+  color: #000000;
+  text-shadow: 1px 1px #FFFFFF;
 }
 
 #footer {
